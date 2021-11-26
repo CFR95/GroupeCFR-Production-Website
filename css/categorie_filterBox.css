@@ -1,0 +1,18 @@
+.filter_bar {
+    display: flex;
+    background: linear-gradient(to bottom, #e7f1ff 0%, #e7f1ff 100%);
+    padding: 10px 0px;
+    margin: 0;
+    display: flex;
+    color: #004CAE;
+    justify-content: center;
+}
+
+.checkbox_category{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0% 5%;
+    margin: 1px 0;
+    border: 1px solid rgb(133, 132, 132);
+    border-radius: 5px;
+}

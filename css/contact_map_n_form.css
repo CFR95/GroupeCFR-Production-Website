@@ -1,0 +1,44 @@
+.map_n_form{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    gap: 70px;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+
+.form_container{
+    padding-top: 7%;
+}
+
+.form_container fieldset legend{
+    text-transform: uppercase;
+    font-size: 150%;
+}
+
+.section_break{
+    border: none;
+}
+
+.map_container{
+    text-align: center;
+}
+
+.map_container h1, .map_container h2 {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.map{
+    width: 640px;
+    height: 480px;
+    margin-top: 2%;
+}
+
+@media screen and (max-width: 50rem) {
+
+    .map{
+        width: 350px;
+    }
+
+}

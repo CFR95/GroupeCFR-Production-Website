@@ -1,0 +1,66 @@
+
+  
+ .social_bar  {
+    margin:0;
+    padding-bottom: 2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #004CAE;
+  }
+  
+  .social_bar  li {
+    list-style: none;
+    margin-left: 3rem;
+  }
+  
+  .social_bar  li a {
+
+    display:block;
+    text-align:center;
+    border-radius: 50%;
+    padding: 1rem; 
+    text-decoration:none;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    transition: .5s;
+  }
+  
+
+  .social_bar  li a  {
+    width: 100%;
+    height:100%;
+    display:block;
+    background: linear-gradient(0deg, #fff, #ddd);
+    border-radius: 50%;
+    line-height: calc(6rem - 1,2rem);
+    font-size:2rem;
+    color: #262626;
+    transition: .5s;
+  }
+  
+  .social_bar  li:nth-child(1) a:hover  {
+    color: #3b5998;
+  }
+  
+
+  
+  .social_bar  li:nth-child(2) a:hover  {
+    color: #007bb6;
+  }
+  
+  .social_bar  li:nth-child(3) a:hover  {
+    color: #e4405f;
+  }
+
+  @media screen and (max-width: 50rem) {
+
+    .social_bar{
+      display: flex;
+ 
+    }
+       .social_bar li a  {
+    font-size: 2rem;
+  }
+  }
+
+ 

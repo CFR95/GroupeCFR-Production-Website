@@ -1,0 +1,49 @@
+.coords{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coords_detail{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.coords_title{
+    text-transform: uppercase;
+    font-size: 200%;
+    margin-bottom: 3%;
+}
+
+.coords_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 110%;
+    line-height: 150%;
+    margin: 0 2%;
+}
+
+.coords_text h2{
+    text-transform: uppercase;
+}
+
+.coords_text img{
+    width: 48px;
+    height: 48px;
+}
+
+@media screen and (max-width: 40rem) {
+
+    .coords_detail{
+        flex-direction: column;
+        width: 16rem;
+        margin: auto;
+    }
+       .coords h1{
+        text-align: center;
+    }
+
+
+}

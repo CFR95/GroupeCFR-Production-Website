@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+
+/* theme css */
+
+:root {
+  --gradient-color: linear-gradient(
+    90deg,
+    rgb(0, 76, 174, 0.8),
+    rgb(0, 76, 170, 0.8)
+  );
+}
+
+
+
+.all_items {
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+  padding: 5rem 1.5rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.all_items a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 0.8rem 1rem rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+}
+
+.card-image {
+  height: 25rem;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: transform 5s;
+}
+
+/* article 1*/
+
+/* .background-image1{
+    background: url("../asset/blog_page/")  center  no-repeat;
+    background-size: cover;
+}  */
+
+/* article 2*/
+
+/* .background-image2{
+    background: url("../asset/blog_page/cpf.png")  center  no-repeat;
+    background-size: contain;
+} */
+/* article 3*/
+
+/* .background-image3{
+    background: url("../asset/blog_page/opco.png")  center  no-repeat;
+    background-size: contain;
+}
+
+.background-image4{
+  background: url("../asset/blog_page/OPCO_blog.jpg")  center  no-repeat;
+  background-size: cover;
+} */
+
+
+
+
+.card:hover .background-image {
+  transform: scale(1.2);
+}
+.publication-details {
+  width: 100%;
+  height: 100%;
+  background: var(--gradient-color);
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+}
+
+.publication-details i {
+  margin-right: 1rem;
+}
+
+.author {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  transition: all 0.5s 0.2s;
+}
+.author:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+.date {
+  display: block;
+}
+
+.card-content {
+  background-color: #fff;
+  padding: 2rem 3rem;
+  position: relative;
+}
+
+.title,
+.subtitle {
+  font-family: "Oswald", sans-serif;
+}
+
+.title {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #a2a2a2;
+  text-decoration: none;
+  margin: 1rem 0 1.5rem 0;
+}
+
+.description {
+  position: relative;
+  line-height: 1.5;
+}
+.description::first-letter {
+  margin-left: 1rem;
+}
+
+.description::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.5rem;
+  height: 1.8rem;
+  background: var(--gradient-color);
+  border-radius: 2rem;
+}
+
+.cta {
+  text-align: right;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.cta a {
+  color: var(--gradient-color);
+  position: relative;
+}
+
+.cta a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.5rem;
+  width: 100%;
+  height: 3px;
+  background: var(--gradient-color);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s;
+}
+
+.cta a:hover::before {
+  transform: scaleX(1);
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    flex-direction: row;
+    max-width: 75rem;
+  }
+  .card-image {
+    height: auto;
+    flex-basis: 40%;
+  }
+  .card-content {
+    flex-basis: 60%;
+  }
+  .publication-details {
+    transform: translateX(-100%);
+    transition: transform 0.5s;
+  }
+  .card:hover .publication-details {
+    transform: translateX(0);
+  }
+  .author {
+    transform: translateY(-3rem);
+    opacity: 0;
+    transition-delay: 0.2s;
+  }
+  .date {
+    transform: translateY(3rem);
+    opacity: 0;
+    transition: all 0.5s 0.2s;
+  }
+  .card:hover .author,
+  .card:hover .date {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

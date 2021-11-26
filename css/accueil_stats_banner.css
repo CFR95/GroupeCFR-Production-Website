@@ -1,0 +1,58 @@
+.stats_banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 3% 0 ;
+}
+
+.stats_banner h1{
+    font-size: 200%;
+    font-weight: bolder;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.stats{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.stat_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat_box img{
+    max-width: 127px;
+}
+
+.stat_box p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 110%;
+}
+
+.stat_number{
+    color: #004cae;
+    font-size: larger !important;
+}
+
+@media screen and (max-width: 867px){
+    .stat_box{
+       width: 30%;
+    }
+
+    .stat_box img{
+        max-width: 100px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .stat_box{
+       width: 50%;
+    }
+}

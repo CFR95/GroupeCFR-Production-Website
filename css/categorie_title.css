@@ -1,0 +1,25 @@
+.cat_title {
+    background: linear-gradient(to bottom, #e7f1ff 0%, #e7f1ff 100%);
+    padding: 10px 0px;
+    margin: 0;
+    display: flex;
+    color: #004CAE;
+    justify-content: center;
+}
+
+.cat_title_icone {
+    border-radius: 0.4em;
+    padding-right: 5%;
+    width: 100px;
+}
+
+.cat_title_text {
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 400px) {
+    .title_icone {
+        padding-right: 10%; 
+    }
+}
