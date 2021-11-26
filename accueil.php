@@ -28,16 +28,16 @@
 
   <!-- connection database  -->
   <?php
-    $monFichier = fopen('../cfr_db_reader/user.txt', 'r');
-    $login = trim(fgets($monFichier));
-    $mdp = trim(fgets($monFichier));
+  $monFichier = fopen('../cfr_db_reader/user.txt', 'r');
+  $login = trim(fgets($monFichier));
+  $mdp = trim(fgets($monFichier));
 
 
-    try {
-      $bdd = new PDO('mysql:host=localhost:3306;dbname=ojtb5163_GroupeCFR_DB;charset=utf8', $login, $mdp, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
-    } catch (Exception $e) {
-      die('Erreur : ' . $e->getMessage());
-    }
+  try {
+    $bdd = new PDO('mysql:host=localhost:3306;dbname=ojtb5163_GroupeCFR_DB;charset=utf8', $login, $mdp, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+  } catch (Exception $e) {
+    die('Erreur : ' . $e->getMessage());
+  }
   ?>
 
   <title>Groupe CFR - Accueil</title>
@@ -632,23 +632,23 @@ c-177 0 -332 -4 -343 -9z" />
 
   <!-- Section partenaires -->
   <section class="partners_banner">
-      <h1>Nos partenaires</h1>
-      <div class="partners_img_wrapper">
+    <h1>Nos partenaires</h1>
+    <div class="partners_img_wrapper">
 
-        <?php
-          $req = $bdd->query('SELECT id_logo, nom_logo, alt_value FROM logo_partenaire_accueil');
-          while ($donnees = $req->fetch()) {
-            if (empty($donnees)) {
-              echo "La page demandée n'existe pas...";
-            } else {
-        ?>  
-        <img src="./asset/partners_banner/<?php echo htmlspecialchars($donnees['nom_logo']); ?>" alt="<?php echo htmlspecialchars($donnees['alt_value']); ?>">
-        <?php
-            }
-          }
-          $req->closeCursor(); // Fin de requète SQL
-        ?>
-      </div>
+      <?php
+      $req = $bdd->query('SELECT id_logo, nom_logo, alt_value FROM logo_partenaire_accueil');
+      while ($donnees = $req->fetch()) {
+        if (empty($donnees)) {
+          echo "La page demandée n'existe pas...";
+        } else {
+      ?>
+          <img src="./asset/partners_banner/<?php echo htmlspecialchars($donnees['nom_logo']); ?>" alt="<?php echo htmlspecialchars($donnees['alt_value']); ?>">
+      <?php
+        }
+      }
+      $req->closeCursor(); // Fin de requète SQL
+      ?>
+    </div>
     <hr class="bande_blanche">
   </section>
   <!-- Fin section partenaires -->
@@ -660,11 +660,11 @@ c-177 0 -332 -4 -343 -9z" />
         <div id="testimonial-slider" class="owl-carousel">
 
           <?php
-            $req = $bdd->query('SELECT ID, NOM, FORMATION, TYPEFORMA, AVATAR, FEEDBACK, ALT_VALUE FROM CFR_FEEDBACK');
-            while ($donnees = $req->fetch()) {
-              if (empty($donnees)) {
-                echo "La page demandée n'existe pas...";
-              } else {
+          $req = $bdd->query('SELECT ID, NOM, FORMATION, TYPEFORMA, AVATAR, FEEDBACK, ALT_VALUE FROM CFR_FEEDBACK');
+          while ($donnees = $req->fetch()) {
+            if (empty($donnees)) {
+              echo "La page demandée n'existe pas...";
+            } else {
           ?>
 
               <div class="testimonial">
