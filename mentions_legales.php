@@ -263,7 +263,7 @@
         Générales de Vente.
       </p>
       </p>
-      <p style="display: none;">Designed by Matthieu Siegel, Benjamin Sevault, Quentin & Guillaume Saulnier</p>
+      <p style="display: none;">Designed by Matthieu Siegel, Benjamin Sevault, Quentin Andrieu & Guillaume Saulnier</p>
     </div>
   </div>
   <!-- Fin contenu -->
