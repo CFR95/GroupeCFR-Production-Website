@@ -73,7 +73,8 @@
                 <li><i class="fas fa-poll"></i>Prérequis : <?php echo htmlspecialchars($donnees['pre_requis']); ?> </li><br>
                 <li><i class="fas fa-poll"></i>Mode de financement : <?php echo htmlspecialchars($donnees['financement']); ?> </li><br>
                 <li><i class="fa fa-road"></i> 154 TER avenue Victor Hugo</li>
-                <li><i class="fa fa-phone"></i> (+33)637189785</li>
+                <li><i class="fa fa-road"></i> 75016 PARIS</li>
+                <li><i class="fa fa-phone"></i> (+33) 06 37 18 97 85</li>
                 <li><i class="fa fa-envelope"></i> contact@groupecfr.fr</li>
             </ul>
         </div>
@@ -93,22 +94,22 @@
                 <input type="hidden" name="nom_formation" value="<?php echo htmlspecialchars($donnees['intitule']); ?>">
 
                 <p>
-                    <label>Name</label>
+                    <label>Nom Prénom</label>
                     <input type="text" name="name" id="name" required>
                 </p>
 
                 <p>
-                    <label>Company</label>
+                    <label>Entreprise</label>
                     <input type="text" name="company" id="company">
                 </p>
 
                 <p>
-                    <label>E-mail Address</label>
+                    <label>Adresse mail</label>
                     <input type="email" name="email" id="email" required>
                 </p>
 
                 <p>
-                    <label>Phone Number</label>
+                    <label>Numéro de téléphone</label>
                     <input type="text" name="phone" id="phone">
                 </p>
 
@@ -118,7 +119,7 @@
                 </p>
 
                 <p class="full">
-                    <button type="submit">Submit</button>
+                    <button type="submit">Envoyer</button>
                 </p>
 
             </form>
