@@ -56,7 +56,7 @@
 
                 <section class="zohra_dirigeante">
                     <blockquote class="mot_dirigeante">
-                        Progresser a toujours été mon objectif principal. C’est pourquoi j’ai évolué sur des postes clés
+                        &nbsp; Progresser a toujours été mon objectif principal. C’est pourquoi j’ai évolué sur des postes clés
                         en RH, Management et Comptabilité.
                         <br>
                         Mon ambition est de pouvoir concentrer toutes les connaissances et compétences acquises au fil
