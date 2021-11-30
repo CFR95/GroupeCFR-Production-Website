@@ -15,7 +15,6 @@
         </li>
 
 
-        <li><a href='en_construction.php' class="generic-anchor footer-list-anchor">Cookies</a></li>
         <li><a href='mentions_legales.php' class="generic-anchor footer-list-anchor">Mention légales</a></li>
         <li style="display: none;">Designed by Matthieu Siegel, Benjamin Sevault, Quentin Andrieu & Guillaume Saulnier</li>
     </ul>
