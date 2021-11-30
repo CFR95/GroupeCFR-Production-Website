@@ -127,7 +127,7 @@
                 désirant se former à l’un de nos domaines d’expertise. Ainsi nous nous adressons autant aux demandeurs
                 d’emploi qu’aux entreprises souhaitant former leur personnel ou tout autre personne souhaitant se
                 former.</p>
-              <a href="qui_sommes_nous.php">Read More</a>
+              <a href="qui_sommes_nous.php">En savoir plus</a>
             </div>
           </div>
         </div>
