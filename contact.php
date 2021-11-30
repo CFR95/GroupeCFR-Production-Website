@@ -102,7 +102,7 @@
         <!-- doc technique -->
         <!-- https://formsubmit.co/ -->
         <div class="form_container">
-            <form action="https://formsubmit.co/groupecfr3@gmail.com" method="POST" class="contact_form">
+            <form action="https://formsubmit.co/cfr.gestion@gmail.com" method="POST" class="contact_form">
                 <input type="hidden" name="_subject" value="Nouvelle demande de contact Groupe CFR">
                 <input type="hidden" name="_template" value="table">
                 <fieldset>

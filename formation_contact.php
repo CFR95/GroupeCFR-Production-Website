@@ -86,7 +86,7 @@
             <!-- doc technique -->
             <!-- https://formsubmit.co/ -->
             <!-- groupecfr3@gmail.com -->
-            <form action="https://formsubmit.co/groupecfr3@gmail.com" method="POST" id="contact-form">
+            <form action="https://formsubmit.co/cfr.gestion@gmail.com" method="POST" id="contact-form">
                 <input type="hidden" name="_subject" value="Nouveau contact Groupe CFR (Formation)">
                 <input type="hidden" name="_next" value="http://groupecfr.com/thankyou.html">
                 <input type="hidden" name="code_cfr" value="<?php echo htmlspecialchars($donnees['code_cfr']); ?>">
