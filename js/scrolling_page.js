@@ -1,23 +1,14 @@
 
-
-
-/* ------------ accueil------------*/
+/* ------------ navabr------------*/
 
 ScrollReveal().reveal('.header', {
-    delay: 300,
-    duration: 600,
+    delay: 200,
+    duration: 400,
     opacity: 0,
     reset: false
     
 });
-ScrollReveal().reveal('.item', {
-    delay: 200,
-    distance: '10rem',
-    duration: 600,
-    origin: 'bottom',
-    reset: false
-    
-});
+
 
 
 
@@ -89,8 +80,130 @@ ScrollReveal().reveal('.team', {
 
 });
 
+    /* -------- contact----------- */
+    ScrollReveal().reveal('.contact_us_banner', {
+        delay: 200,
+        distance: '10rem',
+        duration: 300,
+        origin: 'left',
+        reset: false
+        
+    
+    });
+    ScrollReveal().reveal('.banner_end_bar', {
+        delay: 200,
+        distance: '10rem',
+        duration: 300,
+        origin: 'left',
+        reset: false
+        
+    
+    });
+
+
+    ScrollReveal().reveal('.coords_title', {
+        delay: 200,
+        duration: 600,
+        reset: false
+        
+    
+    });
+
+    ScrollReveal().reveal('.coords_text', {
+        delay: 200,
+        distance: '10rem',
+        duration: 600,
+        origin: 'bottom',
+        reset: false
+        
+    
+    });
+    ScrollReveal().reveal('.map_n_form', {
+        delay: 200,
+        distance: '0rem',
+        duration: 600,
+        origin: 'right',
+        reset: false
+        
+    
+    });
+    ScrollReveal().reveal('.contact_form', {
+        delay: 200,
+        distance: '10rem',
+        duration: 600,
+        origin: 'left',
+        reset: false
+        
+    
+    });
+
+
+    /* -------- FAQ ----------- */
+    ScrollReveal().reveal('.card', {
+        delay: 200,
+        distance: '10rem',
+        duration: 600,
+        origin: 'left',
+        reset: false
+        
+    })
+    ScrollReveal().reveal('.acc-container', {
+        delay: 200,
+        distance: '10rem',
+        duration: 600,
+        origin: 'bottom',
+        reset: false
+        
+    })
+    ScrollReveal().reveal('.acc-btn', {
+        delay: 200,
+        distance: '10rem',
+        duration: 600,
+        origin: 'bottom',
+        reset: false
+        
+    });
+
+    /* -------- financement / funding page----------- */
+
+    ScrollReveal().reveal('#funding_page_title', {
+        delay: 200,
+        distance: '10rem',
+        duration: 600,
+        origin: 'right',
+        reset: false
+        
+    })
+    ScrollReveal().reveal('.section_wrapper', {
+        delay: 200,
+        distance: '10rem',
+        duration: 600,
+        origin: 'left',
+        reset: false
+        
+    })
+
+    ScrollReveal().reveal('.acc-btn', {
+        delay: 200,
+        distance: '10rem',
+        duration: 600,
+        origin: 'bottom',
+        reset: false
+        
+    });
+    
+    
 
     /* -------- acceuil----------- */
+
+    ScrollReveal().reveal('.item', {
+        delay: 200,
+        distance: '10rem',
+        duration: 600,
+        origin: 'bottom',
+        reset: false
+        
+    });
 
     ScrollReveal().reveal('.partners_img_wrapper', {
         delay: 200,

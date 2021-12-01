@@ -247,7 +247,8 @@
     <?php include("footer.php"); ?>
     <!-- fin footer -->
 
-
+    <script src="./js/scrollreveal.min.js"></script>
+  <script src="./js/scrolling_page.js"></script> 
 
 </body>
 
