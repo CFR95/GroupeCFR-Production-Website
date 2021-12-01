@@ -1,6 +1,7 @@
 
 
-/* ------------ navBar ------------*/
+
+/* ------------ accueil------------*/
 
 ScrollReveal().reveal('.header', {
     delay: 300,
@@ -9,6 +10,15 @@ ScrollReveal().reveal('.header', {
     reset: false
     
 });
+ScrollReveal().reveal('.contain', {
+    delay: 200,
+    distance: '10rem',
+    duration: 600,
+    origin: 'bottom',
+    reset: false
+    
+});
+
 
 
 /* --------------- blog -----------*/
