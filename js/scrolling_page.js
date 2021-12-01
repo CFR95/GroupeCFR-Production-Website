@@ -10,7 +10,7 @@ ScrollReveal().reveal('.header', {
     reset: false
     
 });
-ScrollReveal().reveal('.contain', {
+ScrollReveal().reveal('.item', {
     delay: 200,
     distance: '10rem',
     duration: 600,
