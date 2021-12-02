@@ -188,7 +188,7 @@
 }
 
 .nos_objectifs .text_objectif #doSomethingGreat {
-    height: 350px;
+    min-height: 400px;
     width: 700px;
     border-radius: 14% 86% 22% 78% / 47% 58% 42% 53%;
     box-shadow: rgba(240, 201, 95, 0.4) 5px 5px,
@@ -389,7 +389,7 @@
 
 @media screen and (max-width: 1720px){
     .nos_objectifs .text_objectif #doSomethingGreat {
-        height: 250px;
+        min-height: 250px;
         width: 600px;
     }
 }
@@ -401,7 +401,7 @@
     }
 
     .nos_objectifs .text_objectif #doSomethingGreat {
-        height: 250px;
+        min-height: 250px;
         width: 600px;
     }
 }
@@ -415,7 +415,7 @@
         font-size: 1.3rem;
     }
     .nos_objectifs .text_objectif #doSomethingGreat {
-        height: 150px;
+        min-height: 150px;
         width: 500px;
     }
     .text_objectif p {
@@ -487,7 +487,7 @@
     }
 
     .nos_objectifs .text_objectif #doSomethingGreat {
-        height: 150px;
+        min-height: 150px;
         width: 400px;
     }
 
