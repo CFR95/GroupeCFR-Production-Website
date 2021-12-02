@@ -68,7 +68,7 @@
       <div class="zone_thema">
         <a href="./formation_cards.php?categorie=langues" class="thema">
           <p class="thema_description">
-            Langues
+            Langues vivantes
           </p>
           <div class="icone_thema">
             <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
