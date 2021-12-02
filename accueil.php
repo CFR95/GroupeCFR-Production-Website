@@ -147,7 +147,7 @@
       </div>
       <div class="stat_box">
         <img src="./asset/stats_banner/partenariats_icon.png" alt="icone partenariat">
-        <p class="stat_number">6</p>
+        <p class="stat_number">12</p>
         <p>Partenariats</p>
       </div>
       <div class="stat_box">
@@ -167,7 +167,7 @@
       </div>
       <div class="stat_box">
         <img src="./asset/stats_banner/etablissement_icon.png" alt="">
-        <p class="stat_number">4</p>
+        <p class="stat_number">6</p>
         <p>Etablissements</p>
       </div>
     </div>
