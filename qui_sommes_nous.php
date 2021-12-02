@@ -68,7 +68,7 @@
                         Seul nous pouvons faire si peu, ensembles nous pouvons faire tellement…
                         <p id="zohra"><cite>Zohra CHATER</cite> - Dirigeante Groupe CFR</p>
                     </blockquote>
-                    <img id="zohra_png_mot" src="./asset/photo/zohra_mot_dirigeant.png" alt="">
+                    <img id="zohra_png_mot" src="./asset/photo/zohra_chater.png" alt="">
 
                 </section>
 
