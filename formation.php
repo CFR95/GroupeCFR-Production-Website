@@ -38,7 +38,7 @@
     <h1>Nos formations</h1>
     <div id=flip>
       <div>
-        <div> <a href="./formation_cards.php?categorie=langues">Langues</a></div>
+        <div> <a href="./formation_cards.php?categorie=langues">Langues vivantes</a></div>
       </div>
       <div>
         <div> <a href="./formation_cards.php?categorie=finance">Finances</a> </div>
