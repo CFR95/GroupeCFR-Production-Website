@@ -72,7 +72,7 @@
                 ?> </li><br>
                 <li><i class="fas fa-poll"></i>Prérequis : <?php echo htmlspecialchars($donnees['pre_requis']); ?> </li><br>
                 <li><i class="fas fa-poll"></i>Mode de financement : <?php echo htmlspecialchars($donnees['financement']); ?> </li><br>
-                <li><i class="fa fa-road"></i> 154 TER avenue Victor Hugo</li>
+                <li><i class="fa fa-road"></i> 154 avenue Victor Hugo</li>
                 <li><i class="fa fa-road"></i> 75016 PARIS</li>
                 <li><i class="fa fa-phone"></i> (+33) 06 37 18 97 85</li>
                 <li><i class="fa fa-envelope"></i> contact@groupecfr.fr</li>
