@@ -215,11 +215,11 @@
                         </div>
                         <div class="team">
                             <div class="picture">
-                                <img class="img-fluid" src="./asset/photo/Sylvain.jpg">
+                                <img class="img-fluid" src="./asset/photo/romain_masson.png">
                             </div>
                             <div class="team_content">
                                 <h3 class="name">Romain MASSON</h3>
-                                <h4 class="title">Chargé d'Affaires</h4>
+                                <h4 class="title">Chargé d'affaire</h4>
                             </div>
                             <ul class="social">
                                 <li>
