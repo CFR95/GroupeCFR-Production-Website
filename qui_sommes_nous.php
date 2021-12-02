@@ -99,7 +99,7 @@
                     </ul>
                     <div class="text_objectif">
                         <div>
-                            <img id="doSomethingGreat" src="./asset/photo/doSomethingGreat.jpg" alt="">
+                            <img id="doSomethingGreat" src="./asset/photo/business_img.png" alt="">
                         </div>
                         <p>
                             Participer à l’une de nos formations certifiées, <br> c'est monter en compétences, créer son
