@@ -4,7 +4,7 @@
         <li>
             <h4 class="footer-list-header">ADRESSES</h4>
         </li>
-        <li> <a href=""> 154 TER avenue Victor Hugo, 75016 PARIS</a></li>
+        <li> <a href=""> 154 avenue Victor Hugo, 75016 PARIS</a></li>
         <li> <a href=""> 94 rue Servient, 69003 LYON</a></li>
         <li> <a href=""> 2 rue le Corbusier, 95190 GOUSSAINVILLE</a></li>
 
