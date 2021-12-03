@@ -184,7 +184,7 @@
                         <label for="langues" class="statut">
                             <input type="checkbox" name="formation_langues" class="checkbox_input" id="langues"
                                 value="oui">
-                            Langues
+                            Langues vivantes
                         </label>
                         <label for="numerique" class="statut">
                             <input type="checkbox" name="formation_numerique" class="checkbox_input" id="numerique"
