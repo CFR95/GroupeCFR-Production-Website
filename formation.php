@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="./css/formation_sectionBox.css">
   <link rel="stylesheet" href="./css/formation_header.css">
 
-  <title>Groupe CFR - Accueil</title>
+  <title>Groupe CFR - Nos formations</title>
 </head>
 
 <body id="main">
