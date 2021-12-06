@@ -9,6 +9,7 @@
   <meta name=" robots" content=" follow">
   <meta name="author" content="CHATER Zhora">
   <meta name=" copyright" content=" CFR">
+  <meta name="google-site-verification" content="gW14sC14t97Z1ylXFpENGA5MYP68XDDWMT0V0MSUXK8" />
   <link rel=”canonical” href=”https://groupecfr.com/accueil.html”>
 
   <!-- global links  -->
