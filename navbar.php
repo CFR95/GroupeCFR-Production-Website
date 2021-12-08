@@ -1,5 +1,6 @@
 <head>
     <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="62768801-c625-458f-bb4a-f2ab8718db10";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+    <script src="//code.tidio.co/ugq3zghp0kgj1c4x9zpbiue63clpmlr7.js" async></script>
 </head>
 <header class="header" id="navbar">
     <script src="./js/navbar.js" defer></script>
