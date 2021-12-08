@@ -10,7 +10,6 @@
   <meta name="author" content="CHATER Zhora">
   <meta name=" copyright" content=" CFR">
   <meta name="google-site-verification" content="gW14sC14t97Z1ylXFpENGA5MYP68XDDWMT0V0MSUXK8" />
-  <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="62768801-c625-458f-bb4a-f2ab8718db10";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
   <link rel=”canonical” href=”https://groupecfr.com/accueil.html”>
 
   <!-- global links  -->
